@@ -99,7 +99,7 @@ class TitanicSpaceship:
             KNeighborsClassifier(),
             LogisticRegression(random_state=1),
         ]
-        model_names = ["Random Forest", "SVC", "KNN", "Logistic Regression", "XGB"]
+        model_names = ["Random Forest", "SVC", "KNN", "Logistic Regression"]
         accuracy_scores = {}
         accuracy_scores = {}
         for model, model_name in zip(models, model_names):
